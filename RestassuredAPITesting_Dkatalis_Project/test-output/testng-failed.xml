@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DkatalisRestAPISuite]">
+  <listeners>
+    <listener class-name="com.dkatalis.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="DkatalisRestAPITest(failed)">
+    <classes>
+      <class name="com.dkatalis.testCases.PrintArrayListfromFileTest">
+        <methods>
+          <include name="setup"/>
+          <include name="settinginitialinfo"/>
+          <include name="tearDown"/>
+          <include name="printarraylist_file"/>
+        </methods>
+      </class> <!-- com.dkatalis.testCases.PrintArrayListfromFileTest -->
+    </classes>
+  </test> <!-- DkatalisRestAPITest(failed) -->
+</suite> <!-- Failed suite [DkatalisRestAPISuite] -->

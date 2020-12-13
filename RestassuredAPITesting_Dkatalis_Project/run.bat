@@ -1,0 +1,2 @@
+cd D:\res_Assured_Api_Comparison\API-Testing-REST-Assured-Framework\RestassuredAPITesting_Dkatalis_Project
+mvn clean install

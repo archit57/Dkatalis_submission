@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="DkatalisRestAPISuite">
+<listeners>
+	<listener class-name="com.dkatalis.utilities.Listeners" />
+</listeners>
+	<test thread-count="5" name="DkatalisRestAPITest">
+		<classes>
+			<class name="com.dkatalis.testCases.PrintArrayListfromFileTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,136 @@
+2020-12-13 22:01:12 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:01:13 INFO  Reqres API:90 - ********* Comparing API Response from 2 files **********
+2020-12-13 22:02:36 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:02:37 INFO  Reqres API:90 - ********* Comparing API Response from 2 files **********
+2020-12-13 22:03:40 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:03:41 INFO  Reqres API:90 - ********* Comparing API Response from 2 files **********
+2020-12-13 22:07:24 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:07:25 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:07:27 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:07:29 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:07:29 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:07:29 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:07:29 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:07:31 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:07:32 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:07:32 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:07:32 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:07:34 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:07:34 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:07:34 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:07:34 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:07:36 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:07:37 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:07:37 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:07:37 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:07:39 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:07:39 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:07:39 INFO  Reqres API:90 - ********* Comparing API Response from 2 files **********
+2020-12-13 22:33:49 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:33:50 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:33:52 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:33:54 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:33:54 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:33:54 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/2
+2020-12-13 22:33:54 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:33:54 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:33:56 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:33:57 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:33:57 INFO  Reqres API:61 - https://reqres.in/api/users/2 is equal to https://reqres.in/api/users/2
+2020-12-13 22:33:57 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:33:57 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:33:59 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:33:59 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:33:59 INFO  Reqres API:65 - https://reqres.in/api/users/5 is not equal to https://reqres.in/api/users/1
+2020-12-13 22:33:59 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:33:59 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:34:01 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:34:02 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:34:02 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/5
+2020-12-13 22:34:02 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:34:02 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:34:04 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:34:04 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:34:04 INFO  Reqres API:61 - https://reqres.in/api/users/7 is equal to https://reqres.in/api/users/7
+2020-12-13 22:34:04 INFO  Reqres API:93 - ********* Comparing API Response from 2 files Ended**********
+2020-12-13 22:41:17 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:41:18 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:41:20 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:41:22 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:41:22 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:41:22 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/2
+2020-12-13 22:41:22 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:41:23 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:41:25 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:41:25 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:41:25 INFO  Reqres API:61 - https://reqres.in/api/users/2 is equal to https://reqres.in/api/users/2
+2020-12-13 22:41:25 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:41:25 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:41:27 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:41:27 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:41:27 INFO  Reqres API:65 - https://reqres.in/api/users/5 is not equal to https://reqres.in/api/users/1
+2020-12-13 22:41:27 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:41:27 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:41:29 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:41:30 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:41:30 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/5
+2020-12-13 22:41:30 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:41:30 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:41:32 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:41:32 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:41:32 INFO  Reqres API:61 - https://reqres.in/api/users/7 is equal to https://reqres.in/api/users/7
+2020-12-13 22:41:32 INFO  Reqres API:93 - ********* Comparing API Response from 2 files Ended**********
+2020-12-13 22:49:05 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:49:05 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:49:08 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:49:10 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:49:10 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:49:10 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/2
+2020-12-13 22:49:10 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:49:11 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:49:13 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:49:13 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:49:13 INFO  Reqres API:61 - https://reqres.in/api/users/2 is equal to https://reqres.in/api/users/2
+2020-12-13 22:49:13 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:49:13 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:49:15 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:49:15 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:49:15 INFO  Reqres API:65 - https://reqres.in/api/users/5 is not equal to https://reqres.in/api/users/1
+2020-12-13 22:49:15 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:49:16 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:49:18 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:49:18 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:49:18 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/5
+2020-12-13 22:49:18 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:49:18 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:49:20 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:49:21 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:49:21 INFO  Reqres API:61 - https://reqres.in/api/users/7 is equal to https://reqres.in/api/users/7
+2020-12-13 22:49:21 INFO  Reqres API:93 - ********* Comparing API Response from 2 files Ended**********
+2020-12-13 22:51:07 INFO  Reqres API:34 - ********* Started Reading File  **********
+2020-12-13 22:51:08 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:51:10 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:51:12 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:51:13 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:51:13 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/2
+2020-12-13 22:51:13 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:51:13 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:51:15 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:51:15 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:51:15 INFO  Reqres API:61 - https://reqres.in/api/users/2 is equal to https://reqres.in/api/users/2
+2020-12-13 22:51:15 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:51:15 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:51:17 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:51:18 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:51:18 INFO  Reqres API:65 - https://reqres.in/api/users/5 is not equal to https://reqres.in/api/users/1
+2020-12-13 22:51:18 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:51:18 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:51:20 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:51:20 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:51:20 INFO  Reqres API:65 - https://reqres.in/api/users/3 is not equal to https://reqres.in/api/users/5
+2020-12-13 22:51:20 INFO  Reqres API:44 - *********Hitting the API of 1st file **********
+2020-12-13 22:51:20 INFO  Reqres API:47 - *********Got Response from URI of 1st file **********
+2020-12-13 22:51:22 INFO  Reqres API:49 - *********Hitting the API of 2nd file **********
+2020-12-13 22:51:22 INFO  Reqres API:51 - *********Got Response from URI of 2nd file **********
+2020-12-13 22:51:22 INFO  Reqres API:61 - https://reqres.in/api/users/7 is equal to https://reqres.in/api/users/7
+2020-12-13 22:51:22 INFO  Reqres API:93 - ********* Comparing API Response from 2 files Ended**********
