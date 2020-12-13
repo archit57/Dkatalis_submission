@@ -6,7 +6,7 @@
 2. TestNG Framework 
 3. Report and logger for generating reports and logs.
 
-**Github repository:**  
+**Github repository:**  https://github.com/archit57/Dkatalis_submission/tree/master/RestassuredAPITesting_Dkatalis_Project
 
 **Steps to import project**
 - Download repo from  unzip it
