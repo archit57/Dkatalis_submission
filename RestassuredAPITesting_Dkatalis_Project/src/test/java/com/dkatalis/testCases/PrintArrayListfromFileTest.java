@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -41,6 +42,12 @@ public class PrintArrayListfromFileTest extends TestBase {
 
 	@Test(dataProvider = "getData")
 	void printarraylist_file(String path1, String path2) throws InterruptedException, ParseException {
+		if (path1 == null || path2 == null) {
+			System.out.println("No file to compare  with");
+			logger.warn("No file to compare  with");
+			throw new SkipException("Skipping the test");
+		}
+
 		logger.info("*********Hitting the API of 1st file **********");
 		response1 = httpRequest.request(Method.GET, path1);
 		APIResuableMethods.checksuccessstatusLine(response1);
@@ -74,17 +81,16 @@ public class PrintArrayListfromFileTest extends TestBase {
 		String location2 = sublocation + LoadPropertyWithSingleton.getinstance().getvaluefromproperty("file2location");
 		List<String> list1 = GetList_FileReading.filereader(location1);
 		List<String> list2 = GetList_FileReading.filereader(location2);
-		int size = (list1.size() > list2.size()) ? list2.size() : list1.size();
+		int size = (list1.size() > list2.size()) ? list1.size() : list2.size();
 		// Rows - Number of times your test has to be repeated.
 		// Columns - Number of parameters in test data.
 		Object[][] data = new Object[size][2];
 
-		for (int i = 0; i < size; i++) {
-
+		for (int i = 0; i < list1.size(); i++)
 			data[i][0] = list1.get(i);
-			data[i][1] = list2.get(i);
-		}
 
+		for (int j = 0; j < list2.size(); j++)
+			data[j][1] = list2.get(j);
 		return data;
 	}
 
