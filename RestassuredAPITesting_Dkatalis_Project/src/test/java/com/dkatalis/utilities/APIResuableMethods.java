@@ -1,5 +1,10 @@
 package com.dkatalis.utilities;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+
 import org.testng.Assert;
 
 import io.restassured.response.Response;
@@ -16,4 +21,17 @@ public class APIResuableMethods {
 
 	}
 
+	public static boolean netIsAvailable() {
+		try {
+			final URL url = new URL("http://www.google.com");
+			final URLConnection conn = url.openConnection();
+			conn.connect();
+			conn.getInputStream().close();
+			return true;
+		} catch (MalformedURLException e) {
+			throw new RuntimeException(e);
+		} catch (IOException e) {
+			return false;
+		}
+	}
 }

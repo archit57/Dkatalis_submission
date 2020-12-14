@@ -49,6 +49,12 @@ public class PrintArrayListfromFileTest extends TestBase {
 		}
 
 		logger.info("*********Hitting the API of 1st file **********");
+		if (!APIResuableMethods.netIsAvailable()) {
+			System.out.println("Internet Connection not available");
+			logger.warn("Internet Connection not available");
+			throw new SkipException("Skipping the test");
+		}
+
 		response1 = httpRequest.request(Method.GET, path1);
 		APIResuableMethods.checksuccessstatusLine(response1);
 		logger.info("*********Got Response from URI of 1st file **********");
